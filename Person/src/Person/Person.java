@@ -10,14 +10,7 @@ public class Person {
     private int phonenum;
     private String diachi;
 
-    /**
-     *
-     * @param email
-     * @param hoten
-     * @param age
-     * @param phonenum
-     * @param diachi
-     */
+    
     public Person(String email, String hoten, int age, int phonenum, String diachi) {
         this.email = email;
         this.hoten = hoten;
@@ -34,10 +27,10 @@ public class Person {
     }
 
     void showInformation() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException("Not supported yet."); 
     }
 
     void Information() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        throw new UnsupportedOperationException("Not supported yet.");
     }
 }
